@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <packages>
+      <package name="jenkins.maven.test.*"/>
+      <package name="guru.nine.bank.*"/>
+    </packages>
+    <classes>
+      <class name="jenkins.maven.test.Character_Sequence"/>
+      <class name="jenkins.maven.test.Checking_Jenkins_Integration"/>
+      <class name="jenkins.maven.test.Test_Jenkins"/>
+      <class name="guru.nine.bank.Login_Module"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
